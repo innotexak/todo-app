@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// Todo input class based component
 export default class TodoInput extends Component {
   render() {
     const { item, editItem, handleSubmit, handleChange } = this.props;
